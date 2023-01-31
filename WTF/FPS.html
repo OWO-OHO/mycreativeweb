@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" type="text/css" href="css/all.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+		<link rel="icon" href="logo.ico" type="image/x-icon" / >
+		
+		<title>
+				What is First-Person-Shooter 
+		</title>
+	</head>
+	
+	<body background="background.jpg">
+		
+		<header>
+			<script src ='Script.js'></script>
+			<style>
+				body { 
+					margin:0px 0px 0px 0px;
+					padding:0px;
+					background-repeat: no-repeat;
+					background-attachment: fixed;
+					background-position: center;
+					background-size: cover;
+				
+				}
+
+				header {
+					height: 500px;
+					z-index: 5;
+				}
+				.header-banner {
+					background-color: #333;
+					background-image: url("background(computer).png");
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+					width: 100%;
+					height: 100%;
+				}
+
+				header h1 {
+					background-color: rgba(0,0,0, 0.7);
+					font-size: 30px;
+					color: #fff;
+					padding: 2rem 3rem;
+					position: absolute;
+					top: 6rem; 
+					left: 0rem;
+				}
+
+				.fixed-header {
+					position: fixed;
+					top: 0;
+					left: 0;
+					width: 100%; 
+				}
+
+				nav {
+					width: 100%;
+					height: 60px;
+					background: #090121;
+					postion: fixed;
+					z-index: 10;
+				}
+				
+				nav div {
+					color: white;
+					font-size: 3rem;
+					line-height: 60px;
+					position: absolute;
+					top: 0;
+					left: 3%;
+					visibility: hidden;
+				}
+				.visible-title {
+					visibility: visible;
+				}
+
+				nav ul { 
+					list-style-type: none;
+					margin: 0% 4% auto 0;
+					padding-left: 0;
+					text-align: right;
+					max-width: 100%;
+					
+				}
+				nav ul li { 
+					display: inline-block; 
+					line-height: 60px;
+					margin-left: 40px;
+					font-size: 20px;
+					Font-Weight: 100px;
+					
+				}
+				nav ul li a {
+					text-decoration: none; 
+					color: #ffffff;
+					
+				}
+				
+			</style>
+			
+				<div class="header-banner">
+					<h1>What's FPS</h1>
+				</div>
+				<div class="clear"> </div>
+				<nav>
+					<div class="site-title">What's FPS</div>
+					<ul>
+						<li><a href="FPS.html">首頁▼</a></li>
+						<li><a href="404/404.html">設定▼</a></li>
+						<li><a href="404/404.html">關於▼</a></li>
+						<li><a href="login/login.html">登入▼</a></li>
+					</ul>
+					
+				</nav>
+				
+		</header>
+		
+		<style>
+				.img1{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 560px;
+					z-index: 0;
+				}
+				.img1-1{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 560px;
+					z-index: 1;
+				}
+				.img2{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 1415px;
+					z-index: 0;
+				}
+				.img2-1{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 560px;
+					z-index: 1;
+				}
+				.img3{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 2270px;
+					z-index: 0;
+				}
+				.img3-1{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 560px;
+					z-index: 1;
+				}
+				.img5-1-1{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 3925px;
+					left: 3%;
+					z-index: 1;
+				}
+				.img5-1-2{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 3900px;
+					z-index: 0;
+				}
+				.img6-1-1{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 4650px;
+					right: 2%;
+					z-index: 1;
+				}
+				.img6-1-2{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 4585px;
+					z-index: 0;
+				}
+				.img7-1-1{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 5550px;
+					-webkit-filter: invert(100%); 
+					filter: invert(100%); 
+					z-index: 1;
+				}
+				.img7-1-2{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 5440px;
+					z-index: 0;
+				}
+				.img8-1-1{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 6200px;
+					left: 15%;
+					z-index: 1;
+				}
+				.img8-1-2{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 6200px;
+					left: 0px;
+					z-index: 0;
+				}
+				.img8-1-3{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 6370px;
+					left: -25px;
+					z-index: 1;
+				}
+				.img9-1-1{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 7050px;
+					right: 10px;
+					z-index: 1;
+				}
+				.img9-1-2{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 7050px;
+					left: 0px;
+					z-index: 0;
+				}
+				
+				.img---{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 3000px;
+					z-index: 2;
+				}
+				.img---2{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 3895px;
+					z-index: 2;
+				}
+				.img---1{
+					margin: 0;
+					position: absolute;
+					padding: 0px;
+					top: 7775px;
+					z-index: 2;
+				}
+				h7{ 
+					display: block; 
+				}
+				h8{ 
+					display: block; 
+				}
+				h9{ 
+					display: block; 
+				}
+				h10{ 
+					display: block; 
+				}
+				h2{
+					font-size:   50px;
+					Font-Weight: 1000;
+					color:		 black;
+					position: 	 absolute;
+					top:		 580px;
+					left:		 40px;
+					z-index: 	 2;
+				}
+				p1{
+					font-size:   20px;
+					Font-Weight: 1000;
+					color:		 black;
+					position: 	 absolute;
+					top:		 880px;
+					left:		 65px;
+					z-index: 	 2;
+				}
+				p2{
+					font-size:   25px;
+					Font-Weight: 1000;
+					color:		 black;
+					position: 	 absolute;
+					top:		 1550px;
+					right:		 30px;
+					transform:rotate(13deg);
+					z-index: 	 2;
+				}
+				p9{
+					font-size:   25px;
+					Font-Weight: 1000;
+					color:		 black;
+					position: 	 absolute;
+					top:		 2110px;
+					right:		 40px;
+					transform:rotate(11deg);
+					z-index: 	 2;
+				}
+				h3{
+					font-size:   50px;
+					Font-Weight: 1000;
+					color:		 black;
+					position: 	 absolute;
+					top:		 1490px;
+					right:		 40px;
+					transform:rotate(13deg);
+					z-index: 	 2;
+				}
+				p3{
+					font-size:   25px;
+					Font-Weight: 1000;
+					color:		 white;
+					position: 	 absolute;
+					top:		 2500px;
+					left:		 50px;
+					z-index: 	 2;
+				}
+				h4{
+					font-size:   50px;
+					Font-Weight: 1000;
+					color:		 white;
+					position: 	 absolute;
+					top:		 2400px;
+					left:		 50px;
+					z-index: 	 2;
+				}
+				h5{
+					font-size:   50px;
+					Font-Weight: 1000;
+					color:		 white;
+					position: 	 absolute;
+					top:		 3400px;
+					left:		 650px;
+					z-index: 	 2;
+				}
+				h6{
+					font-size:   40px;
+					Font-Weight: 1000;
+					color:		 white;
+					position: 	 absolute;
+					top:		 4000px;
+					left:		 50px;
+					z-index: 	 2;
+				}
+				p4{
+
+					font-size:   25px;
+					Font-Weight: 1000;
+					color:		 white;
+					position: 	 absolute;
+					top:		 4200px;
+					left:		 50px;
+					z-index: 	 2;
+				}
+				h7{
+
+					font-size:   40px;
+					Font-Weight: 1000;
+					color:		 white;
+					position: 	 absolute;
+					top:		 4700px;
+					left:		 9.5%;
+					z-index: 	 2;
+				}
+				p5{
+					font-size:   25px;
+					Font-Weight: 1000;
+					color:		 white;
+					position: 	 absolute;
+					top:		 4830px;
+					left:		 10%;
+					z-index: 	 2;
+				}
+				h8{
+					font-size:   40px;
+					Font-Weight: 1000;
+					color:		 black;
+					position: 	 absolute;
+					top:		 5500px;
+					left:		 50px;
+					z-index: 	 2;
+				}
+				p6{
+					font-size:   25px;
+					Font-Weight: 1000;
+					color:		 black;
+					position: 	 absolute;
+					top:		 5700px;
+					left:		 50px;
+					z-index: 	 2;
+				}
+				h9{
+					font-size:   40px;
+					Font-Weight: 1000;
+					color:		 white;
+					position: 	 absolute;
+					top:		 6300px;
+					right:		 50px;
+					z-index: 	 2;
+				}
+				p7{
+					font-size:   25px;
+					Font-Weight: 1000;
+					text-align:  right;
+					color:		 white;
+					position: 	 absolute;
+					top:		 6500px;
+					right:		 50px;
+					z-index: 	 2;
+				}
+				h10{
+					font-size:   40px;
+					Font-Weight: 1000;
+					color:		 black;
+					position: 	 absolute;
+					top:		 7110px;
+					left:		 70px;
+					z-index: 	 2;
+				}
+				p8{
+					font-size:   25px;
+					Font-Weight: 1000;
+					color:		 black;
+					position: 	 absolute;
+					top:		 7300px;
+					left:		 80px;
+					z-index: 	 2;
+				}
+				
+			</style>
+			<article>
+					<main>
+						
+						<div class="content1">
+							
+							<img class="img1" src="1.png" width="100%" height="auto">
+							<img class="img1-1" src="1-1.png" width="100%" height="120%">
+							<h2>
+								第一人稱射擊遊戲
+							</h2>
+
+							<p1>
+								First-person-shooter 簡稱FPS又稱第一人稱射<br>
+								擊遊戲，顧名思義就是由自己所控制的遊戲角色<br>
+								的第一人稱去遊玩遊戲。而遊戲內容大多是以槍<br>
+								械、刀器等去進行對抗，同時也能讓玩家透過角<br>
+								色的視角去體驗被帶入的臨場感。<br>
+								最早被發售出來的第一款FPS遊戲是於1992年的<br>
+								《德軍總部3D》，同時也是未來玩家們在判定遊<br>
+								戲是否為FPS遊戲的一個標準。在此遊戲發售後，<br>
+								也陸續出現許多以此作品為原型的FPS遊戲，例<br>
+								如在《德軍總部3D》發售後的隔一年出現的<br>
+								《毀滅戰士》、《絕對武力》、《黃金眼007》等<br>
+								，其中以《毀滅戰士》為之中最具有影響力的作<br>
+								品，其影響力讓之後的FPS遊戲都被稱為「類毀滅戰士」。<br>
+							</p1>
+						</div>
+						<div class="content2">	
+							<img class="img2" src="2.png" width="100%" height="auto">
+							<h3>
+								不同的變化
+							</h3>
+				
+							<p2>
+								&nbsp;&nbsp;&nbsp;&nbsp;直到現在依然有許多FPS遊戲在市面上，也有一定<br>
+								的人氣，其中最常聽到的《CS》系列、《特戰英豪》、<br>
+								《虹彩六號》、《鬥陣特攻》等作品。<br>
+								這些遊戲相較以前單用槍和刀的方式去攻擊敵人之外，<br>
+								也開始加入了科幻風格的戰鬥方式，而且你的敵人不一<br>
+								定是人，可能是殭屍、大型怪獸、機器人這類，你的戰<br>
+							</p2>
+							<p9>
+								
+								
+								鬥方式也不再被侷限只用槍或近戰武器，開始出現名為<br>
+								「技能」的攻擊方式，它可以用來輔助自己能更快的搜<br>
+								索到敵人或做一些戰術上的運用，以上這些遊玩方式不<br>
+								僅讓遊戲增添更多的樂趣，也使得FPS一直能保有高<br>
+								人氣的主因之一。
+							</p9>
+							
+						</div>	
+						<div class="content3">	
+							<img class="img3" src="3.png" width="100%" height="auto">
+							<h4>
+								大逃殺
+							</h4>
+				
+							<p3>
+								而在近幾年裡出現新的槍戰玩法「大逃殺」(又稱作吃雞)更是<br>
+								引起了一股槍戰風潮，在這之中的遊戲有《APEX》、《PUBG》<br>
+								就是廣為人知的代表作品，其玩法就是在一張地圖裡盡可能<br>
+								的收集資源，讓自己的武器能有更好的配件或收集醫療用品<br>
+								，能更容易的擊倒敵人並存活到最後取得勝利。這類玩法搭<br>
+								配FPS在市面上受到廣大的回響，讓以前只被限制於小型地<br>
+								圖的玩家們擁有更開放的遊玩體驗，也不再被限制重生點且<br>
+								能自由選擇起始位置，武器也可以配合當時的心情隨時更換<br>
+								，因此這些打破了原FPS規則的新玩法也讓曾經那些因為被<br>
+								限制而不再接觸FPS的玩家們回歸，也再次讓FPS擁有極高<br>
+								的討論度，可說是一大突破。
+							</P3>
+						</div>	
+						<img class="img---" src="---.png" width="100%">
+						<div class="content4">
+							<h5>
+								遊戲介紹
+							</h5>
+						</div>	
+						<img class="img---2" src="---2.png" width="100%">
+						<div class="content5-1">
+							<img class="img5-1-1"src="https://tw.hicdn.beanfun.com/beanfun/GamaWWW/CSO/official2021/assets/img/logo.png" width="" height="">
+							<img class="img5-1-1"src="https://tw.hicdn.beanfun.com/beanfun/GamaWWW/CSO/official2021/assets/img/logo.png" width="" height="">
+							<img class="img5-1-1"src="https://tw.hicdn.beanfun.com/beanfun/GamaWWW/CSO/official2021/assets/img/logo.png" width="" height="">
+							<img class="img5-1-2"src="https://tw.hicdn.beanfun.com/beanfun/GamaWWW/CSO/official2021/assets/img/download-page/download-bg.png" width="100%" height="auto">
+							<img class="img5-1-2"src="https://tw.hicdn.beanfun.com/beanfun/GamaWWW/CSO/official2021/assets/img/download-page/download-bg.png" width="100%" height="auto">
+							<img class="img5-1-2"src="https://tw.hicdn.beanfun.com/beanfun/GamaWWW/CSO/official2021/assets/img/download-page/download-bg.png" width="100%" height="auto">
+							<h6>
+								Counter-Strike Online（CSO）
+							</h6>
+				
+							<p4>
+								一般不將 CSO 視作CS系列中的遊戲,該款遊戲可能<br>
+								因其本質與 Valve 的原生遊戲 Counter-Strike 不同,<br>
+								所以Counter-Strike Online並不屬於Counter-Strike<br>
+								系列中的遊戲,而是一款獨立的線上遊戲。<br>
+								CSO在當時身為一款主流的FPS遊戲而言,它擁有很多<br>
+								獨特且直到現在也還在沿用的玩法,例如:災厄模式<br>
+								和殭屍模式，而殭屍模式在推出後,各大遊戲公司也<br>
+								陸續跟進，現在已經可說是FPS不可少的要素之一了。<br>
+
+	
+							</p4>
+						</div>	
+						<div class="content5-2">	
+							<a href="https://playvalorant.com/"><img class="img6-1-1" src="6-1-1.png" width="200px" height="auto"></a>
+							<img class="img6-1-2" src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc3bf97021e2b2130/63b8afcc438f80612c39678d/Valorant_2022_EP6-1_PlayVALORANT_PlayValorantHomepage_3440x1020_MB01.png.jpg" width="100%" height="auto">
+							<h7>
+								特戰英豪
+							</h7>
+			
+							<p5>
+								英文名《VALORANT》,因此又<br>
+								名《瓦羅蘭》,是近幾年的經典<br>
+								對戰式FPS遊戲,玩法是採經典<br>
+								的5v5爆破模式,就是殺死敵軍<br>
+								、安裝炸彈、拆除炸彈等方式<br>
+								取得勝利。遊戲開始前,玩家們<br>
+								可以用叫做「信幣（Creds）」<br>
+								的金錢,經由經濟系統來購買所<br>
+								需要的槍枝及護甲。和其他相同<br>
+								玩法的是《特戰英豪》的特務(角<br>
+								色)們都擁有各自的特色技能,再搭<br>
+								配玩家們對不同槍枝的選擇下,使整<br>
+								個戰局變得更精彩。<br>
+							</p5>
+						</div>
+						<div class="content5-3">	
+							<img class="img7-1-1" src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/DAwqy5hMljnxm7evA5ASN/81dc0b49ebb9262d32844bcce1e84096/r6s-y6-logo-zh-tw.png" width="200px" height="auto">
+							<img class="img7-1-2" src="7-1-2.png" width="100%" height="auto">
+							<h8>
+								虹彩六號：圍攻行動
+							</h8>
+			
+							<p6>
+								英文名《Tom Clancy's Rainbow Six Siege》,遊戲背景<br>
+								是恐怖份子在總統府、豪宅、飛機等大型場所內裝設了<br>
+								兩顆炸彈且挾持了一位人質。反恐小組的目標是要進入<br>
+								殲滅對方、架設拆彈器或救出人質,反之恐怖分子則是要<br>
+								守護住炸彈或消滅對方。玩家們就是在此條件下扮演某<br>
+								一方的人員並想辦法取勝。雙方的人員都有獨特又相較<br>
+								於其他近代FPS更貼近現實的技能,玩起來真的有像現實<br>
+								一樣的作戰感。<br>
+							</p6>
+						</div>
+						<div class="content5-4">
+							<a href="https://overwatch.blizzard.com/" ><img class="img8-1-1" src="8-1-1.png" width="700px" height="auto" ></a>
+							<img class="img8-1-2" src="8-1-2.jpg" width="100%" height="auto">
+							<a href="https://overwatch.blizzard.com/" ><img class="img8-1-3" src="8-1-2.png" width="80%" height="auto"></a>
+							<h9>
+								鬥陣特攻
+							</h9>
+
+							<p7>
+								英名《Overwatch》,玩家會<br>
+								分為兩支隊伍,每隊1-6人(不<br>
+								同模式有不同的隊伍人數),玩<br>
+								家可從幾個預定英雄人物中選<br>
+								擇,每個英雄有自己獨特屬性和<br>
+								技能,玩法為推車(隊員合力保護<br>
+								並推進目標到指定點)和占領(捍衛<br>
+								地圖上的控制點)這兩個模式。遊戲<br>
+								特點是角色們都相較於大多數FPS<br>
+								又更加的靈活,有會飛的、會加速的、會<br>
+								瞬移的,非常多樣化,中途也能依照戰況<br>
+								去更換角色,且此遊戲可說是幾乎跳脫FPS<br>
+								都是以槍為主的大原則,有用槌子、用刀<br>
+								、用榴彈或自己根本都不用動手的<br>
+								砲塔。是款開放度極高的作品。<br>
+							</p7>
+						</div>
+						<div class="content5-5">
+							<a href="https://www.ea.com/zh-tw/games/apex-legends/about" ><img class="img9-1-1" src="9-1-1.png" width="120px" height="200px"></a>	
+							<img class="img9-1-2" src="9-1-2.png" width="100%" height="auto">
+							<h10>
+								Apex 英雄
+							</h10>
+			
+							<p8>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								英文名《Apex Legends》,是在吃雞<br>
+								這一玩法出現後的作品,此遊戲討論度一直<br>
+								都不低,也是FPS玩家們沒玩過卻必聽過的作品,其<br>
+								原因是它改善了吃雞的缺點並加入自己的玩法,如:一<br>
+								場的節奏是較快的,不用一直無謂的⌜逛街⌟。每張地<br>
+								圖都有專屬的設備或區域可以快速的取得高級物<br>
+								資,並且加入了吃雞的原創公司還未曾增加過的查圈、<br>
+								探查敵人...等可能會破壞遊戲平衡的機制可事實,<br>
+								證明不但沒被破壞,還掀起了一股風潮。在快速<br>
+								的節奏,搭配角色的特色技能、高級的技巧、<br>
+								身法...等結合下,成為了再度帶動FPS的大作。<br>
+
+							</p8>
+						</div>
+						<img class="img---1" src="---.png" width="100%">
+				</main>
+			</article>
+		
+		<div class="footer">
+			<div class="bubbles">
+				<div class="bubble" style="--size:2.5323621302212427rem; --distance:6.041877256105673rem; --position:7.479718508497662%; --time:3.5527162189619887s; --delay:-3.4852560513277937s;"></div>
+				<div class="bubble" style="--size:3.7761988808541407rem; --distance:9.541975105401413rem; --position:102.64763418904113%; --time:2.1866145281084175s; --delay:-3.3926711968634713s;"></div>
+				<div class="bubble" style="--size:5.24007292648436rem; --distance:7.8723774157361035rem; --position:37.93152025530778%; --time:3.153533823417727s; --delay:-3.574709469333396s;"></div>
+				<div class="bubble" style="--size:4.867752041201855rem; --distance:7.275950043813248rem; --position:66.85204600935023%; --time:3.113102310261969s; --delay:-3.9306258841995327s;"></div>
+				<div class="bubble" style="--size:2.9507590639231376rem; --distance:6.1912859826834765rem; --position:49.329469653384095%; --time:2.653416426785418s; --delay:-3.7560774805773423s;"></div>
+				<div class="bubble" style="--size:4.094149103421797rem; --distance:8.376759690692971rem; --position:21.98688913655673%; --time:3.2247229163238553s; --delay:-3.543151236635365s;"></div>
+				<div class="bubble" style="--size:5.487195742144454rem; --distance:7.883753005681921rem; --position:29.146425729769014%; --time:3.5294060597486956s; --delay:-3.2207811036734375s;"></div>
+				<div class="bubble" style="--size:5.3849990500812375rem; --distance:7.220807095529707rem; --position:100.81077475258324%; --time:2.3509594393470925s; --delay:-2.727459080230172s;"></div>
+				<div class="bubble" style="--size:2.2669598476839505rem; --distance:7.160169613144767rem; --position:9.396701190299872%; --time:2.643029504977866s; --delay:-3.2505170888008594s;"></div>
+				<div class="bubble" style="--size:2.6434129987896817rem; --distance:7.886897061019777rem; --position:10.424276471462532%; --time:2.142861911495999s; --delay:-2.061155369967832s;"></div>
+				<div class="bubble" style="--size:2.889978970283562rem; --distance:7.822600028506691rem; --position:14.81265333143088%; --time:3.020465813721965s; --delay:-2.465366981064679s;"></div>
+				<div class="bubble" style="--size:3.1301660264963953rem; --distance:8.996263884062234rem; --position:78.35242788641789%; --time:2.9399752676552966s; --delay:-3.670209747171419s;"></div>
+				<div class="bubble" style="--size:4.686234963034682rem; --distance:6.9066821413945085rem; --position:77.70481646736224%; --time:2.8048926866461854s; --delay:-3.0506437132410507s;"></div>
+				<div class="bubble" style="--size:2.7594541644744552rem; --distance:6.480009869393933rem; --position:8.706926272527262%; --time:3.921238650295101s; --delay:-2.4141189745164273s;"></div>
+				<div class="bubble" style="--size:2.465956623146882rem; --distance:8.873631297104263rem; --position:65.12781189591392%; --time:3.209740532583033s; --delay:-3.1926106524599134s;"></div>
+				<div class="bubble" style="--size:3.209960131093278rem; --distance:7.390340114388556rem; --position:5.924970575924373%; --time:3.497941730700833s; --delay:-3.7129701353356146s;"></div>
+				<div class="bubble" style="--size:4.244757136942911rem; --distance:7.286112320893251rem; --position:66.83812293540993%; --time:2.4351784613241687s; --delay:-3.4637504031427593s;"></div>
+				<div class="bubble" style="--size:4.657414508958588rem; --distance:8.559979771449603rem; --position:95.11780221251068%; --time:2.4324883199771397s; --delay:-2.517464778519091s;"></div>
+				<div class="bubble" style="--size:2.6496190494121032rem; --distance:6.05808945018077rem; --position:79.92026959878929%; --time:2.6796270766359536s; --delay:-3.1508185864139655s;"></div>
+				<div class="bubble" style="--size:5.018891819795721rem; --distance:7.731996172360126rem; --position:91.31226471472282%; --time:3.929090850114041s; --delay:-2.726296255591132s;"></div>
+				<div class="bubble" style="--size:5.485434273332304rem; --distance:8.926789389390983rem; --position:96.87996495024453%; --time:2.5419466673195976s; --delay:-2.1261135864790566s;"></div>
+				<div class="bubble" style="--size:4.291971102047295rem; --distance:9.990504022570843rem; --position:35.22717365841115%; --time:3.5139883488335952s; --delay:-3.605413989319375s;"></div>
+				<div class="bubble" style="--size:3.9899694694887815rem; --distance:9.84018625295976rem; --position:3.3476002395532394%; --time:2.7537411514863646s; --delay:-3.04428195090782s;"></div>
+				<div class="bubble" style="--size:3.8675291879661424rem; --distance:7.23728548922579rem; --position:5.298510831862782%; --time:3.111542663184748s; --delay:-2.44148793927997s;"></div>
+				<div class="bubble" style="--size:4.097665400286811rem; --distance:7.249867411788941rem; --position:67.73159046997483%; --time:3.7816207434140994s; --delay:-3.7488228255579865s;"></div>
+				<div class="bubble" style="--size:4.562267110053477rem; --distance:6.599704433734206rem; --position:2.804511211540051%; --time:2.8129447365893014s; --delay:-2.7785709142310773s;"></div>
+				<div class="bubble" style="--size:2.42092326532865rem; --distance:6.605764567129711rem; --position:55.98397927520658%; --time:2.693379390901321s; --delay:-2.103438578606325s;"></div>
+				<div class="bubble" style="--size:5.2365530037667325rem; --distance:9.40094905293931rem; --position:47.7729948234751%; --time:2.392282621287768s; --delay:-2.7148831071319766s;"></div>
+				<div class="bubble" style="--size:5.714198358373402rem; --distance:6.553993026266742rem; --position:19.660807420162236%; --time:2.1985733541450507s; --delay:-3.6485981820587203s;"></div>
+				<div class="bubble" style="--size:2.432155046201423rem; --distance:6.09328832725548rem; --position:-3.2876476347405004%; --time:2.769101474862373s; --delay:-3.5060986590478564s;"></div>
+				<div class="bubble" style="--size:2.17884190709656rem; --distance:6.838338371502749rem; --position:26.21526609554752%; --time:2.1783492152706483s; --delay:-2.299608073580835s;"></div>
+				<div class="bubble" style="--size:3.3494293220628473rem; --distance:8.346150826924251rem; --position:12.05158229061659%; --time:3.9775477169614577s; --delay:-3.504436278826661s;"></div>
+				<div class="bubble" style="--size:3.550021347608122rem; --distance:8.747427009914514rem; --position:23.9307429486134%; --time:2.9698294556095624s; --delay:-3.232525738612123s;"></div>
+				<div class="bubble" style="--size:5.870704215673601rem; --distance:8.851317815491308rem; --position:57.243093233912866%; --time:2.163991736586653s; --delay:-2.8634838858852447s;"></div>
+				<div class="bubble" style="--size:3.7980990585583214rem; --distance:7.823813157476074rem; --position:96.46999135088686%; --time:2.4129900152336767s; --delay:-3.3128949263691267s;"></div>
+				<div class="bubble" style="--size:2.4931676448353235rem; --distance:9.90954461258203rem; --position:92.70281826344232%; --time:2.9484668673948526s; --delay:-2.9743180039256756s;"></div>
+				<div class="bubble" style="--size:5.986806383290742rem; --distance:9.073678149192439rem; --position:81.85617135243271%; --time:3.196056745524675s; --delay:-2.0088010598974195s;"></div>
+				<div class="bubble" style="--size:4.0817747656512795rem; --distance:7.763108709457337rem; --position:42.684908704325885%; --time:3.9944414807500275s; --delay:-2.563309156957496s;"></div>
+				<div class="bubble" style="--size:5.781654487055768rem; --distance:8.740285436598473rem; --position:53.37628650552878%; --time:2.116523063106792s; --delay:-3.7348411895754876s;"></div>
+				<div class="bubble" style="--size:2.5450796820769384rem; --distance:9.94864177770163rem; --position:40.01351218884036%; --time:2.8341910826938017s; --delay:-2.2449932371930528s;"></div>
+				<div class="bubble" style="--size:4.520860114664476rem; --distance:8.90363885435598rem; --position:44.542444505678986%; --time:2.191385703999716s; --delay:-2.0502458637253964s;"></div>
+				<div class="bubble" style="--size:4.669626095871055rem; --distance:9.198513209830395rem; --position:58.4439200892774%; --time:2.5095434469780673s; --delay:-3.9759097531967713s;"></div>
+				<div class="bubble" style="--size:5.047939059812628rem; --distance:8.533003147511986rem; --position:29.15330051943905%; --time:3.932928109589141s; --delay:-2.5900821570186525s;"></div>
+				<div class="bubble" style="--size:3.4563850794859388rem; --distance:8.127798852739668rem; --position:15.624146927074104%; --time:3.5223459504987216s; --delay:-2.090970492484699s;"></div>
+				<div class="bubble" style="--size:2.758008945700678rem; --distance:8.81969240181271rem; --position:36.782728283457104%; --time:2.1917190083873086s; --delay:-2.4360700383777507s;"></div>
+				<div class="bubble" style="--size:2.555504822800933rem; --distance:6.612450218629668rem; --position:14.111877384071303%; --time:3.4671780322845644s; --delay:-3.5515161316675457s;"></div>
+				<div class="bubble" style="--size:5.23464855982582rem; --distance:7.732797338585838rem; --position:58.92897401293856%; --time:3.9096231593845734s; --delay:-2.661286402537491s;"></div>
+				<div class="bubble" style="--size:3.277516337177186rem; --distance:9.371735488394577rem; --position:38.93182114843765%; --time:2.9328016699913495s; --delay:-3.305503061279489s;"></div>
+				<div class="bubble" style="--size:4.7675845052344865rem; --distance:9.058956544841555rem; --position:59.526136912781496%; --time:3.1038460364960514s; --delay:-3.6150087917675684s;"></div>
+				<div class="bubble" style="--size:4.968308445143809rem; --distance:8.17981718622099rem; --position:-4.699420506729684%; --time:3.9317475524251075s; --delay:-3.091929312987214s;"></div>
+				<div class="bubble" style="--size:4.884539969466627rem; --distance:9.959864523657682rem; --position:59.744664528930954%; --time:2.643500620142128s; --delay:-3.748203302932915s;"></div>
+				<div class="bubble" style="--size:2.7775601080563703rem; --distance:7.588509342960586rem; --position:24.573313854745614%; --time:3.8097934190819s; --delay:-3.1306987291267814s;"></div>
+				<div class="bubble" style="--size:4.549824156198892rem; --distance:8.597180168513859rem; --position:50.09474840511433%; --time:3.285500648006206s; --delay:-3.7770871592392714s;"></div>
+				<div class="bubble" style="--size:5.572614974060458rem; --distance:9.044565090968108rem; --position:54.14281911422254%; --time:3.0609991072593177s; --delay:-3.1446019680322608s;"></div>
+				<div class="bubble" style="--size:3.004294553850472rem; --distance:7.587032659602003rem; --position:96.01317153477504%; --time:2.704049069995536s; --delay:-2.3060683218316105s;"></div>
+				<div class="bubble" style="--size:5.812253264307942rem; --distance:6.905356372066186rem; --position:30.863978380366085%; --time:2.6047690286628713s; --delay:-3.2697157232034484s;"></div>
+				<div class="bubble" style="--size:3.6233518273480163rem; --distance:8.181660175181268rem; --position:74.64253791029157%; --time:2.758824903375959s; --delay:-2.11075540476998s;"></div>
+				<div class="bubble" style="--size:5.255156396599771rem; --distance:6.060418541810872rem; --position:104.37578312705588%; --time:3.4592505168156147s; --delay:-3.5652452820121106s;"></div>
+				<div class="bubble" style="--size:5.955306320820737rem; --distance:6.380003059600621rem; --position:27.960192316940976%; --time:3.2189549886477518s; --delay:-2.580150748550914s;"></div>
+				<div class="bubble" style="--size:2.661975853330273rem; --distance:6.377429232411095rem; --position:66.37186452806247%; --time:2.6717874815248766s; --delay:-2.508571314623772s;"></div>
+				<div class="bubble" style="--size:2.2610125622129784rem; --distance:9.42392994938702rem; --position:-1.9409575593706907%; --time:2.817730118128139s; --delay:-3.492514566283327s;"></div>
+				<div class="bubble" style="--size:3.6584862424433107rem; --distance:7.496140738823534rem; --position:79.75147884958186%; --time:2.187005651249459s; --delay:-3.5982554240668727s;"></div>
+				<div class="bubble" style="--size:3.3777082028126886rem; --distance:8.501989462639788rem; --position:76.15897412511256%; --time:2.8192988523490534s; --delay:-2.3742921313656433s;"></div>
+				<div class="bubble" style="--size:5.41504984656091rem; --distance:9.366813723008647rem; --position:78.85269747474861%; --time:3.160998225938169s; --delay:-2.2916346666538274s;"></div>
+				<div class="bubble" style="--size:3.0281691253331617rem; --distance:6.143235887773514rem; --position:39.273485016239796%; --time:2.150547859631863s; --delay:-3.165519685848114s;"></div>
+				<div class="bubble" style="--size:3.7881364600764798rem; --distance:7.682685637715636rem; --position:16.14558906598147%; --time:2.6176974974502536s; --delay:-3.6276451781743067s;"></div>
+				<div class="bubble" style="--size:2.5287688943866895rem; --distance:9.522223504126053rem; --position:2.9877555741397916%; --time:2.3811361223470437s; --delay:-2.4374931060017837s;"></div>
+				<div class="bubble" style="--size:3.5989725019555rem; --distance:6.052944814386493rem; --position:57.517498131366246%; --time:2.0133866254885397s; --delay:-3.829554195424668s;"></div>
+				<div class="bubble" style="--size:4.936764390061981rem; --distance:9.750920120292841rem; --position:92.99481458707122%; --time:3.052024024219108s; --delay:-2.6916120593730493s;"></div>
+				<div class="bubble" style="--size:5.659471019646898rem; --distance:9.874129401813843rem; --position:96.76517886908007%; --time:2.4132943598185985s; --delay:-2.118821821200555s;"></div>
+				<div class="bubble" style="--size:4.5128868129133695rem; --distance:9.014177529248219rem; --position:93.84777518037045%; --time:3.6277887734779517s; --delay:-3.291091579080598s;"></div>
+				<div class="bubble" style="--size:4.325473729154784rem; --distance:6.1986318773163145rem; --position:91.54403947681503%; --time:2.4132146472004057s; --delay:-2.478727080908793s;"></div>
+				<div class="bubble" style="--size:5.681823674590347rem; --distance:8.964633664763582rem; --position:52.012177769029165%; --time:3.4534629612219425s; --delay:-3.278070834647435s;"></div>
+				<div class="bubble" style="--size:2.0262065384418664rem; --distance:8.703593759313264rem; --position:4.371978004183772%; --time:2.765558445089549s; --delay:-3.9866565563445393s;"></div>
+				<div class="bubble" style="--size:5.721580240126162rem; --distance:9.927134951945622rem; --position:9.173671364203122%; --time:3.4979883172354485s; --delay:-2.544390405457827s;"></div>
+				<div class="bubble" style="--size:2.36889215846218rem; --distance:8.322251689930141rem; --position:67.58052574115608%; --time:3.4402333536868746s; --delay:-2.367520630102651s;"></div>
+				<div class="bubble" style="--size:2.978340465212156rem; --distance:8.2044275338018rem; --position:3.6716105981995106%; --time:2.101023575135283s; --delay:-2.143358240463045s;"></div>
+				<div class="bubble" style="--size:5.9009489549711605rem; --distance:9.118814074277175rem; --position:12.995551852806543%; --time:3.971033828512807s; --delay:-2.2042820002469834s;"></div>
+				<div class="bubble" style="--size:3.9657748260073538rem; --distance:9.8821161382224rem; --position:4.8030666524399805%; --time:3.0155759894804754s; --delay:-2.415057810077301s;"></div>
+				<div class="bubble" style="--size:5.112776018512565rem; --distance:6.235861295943476rem; --position:86.13247419908468%; --time:3.9280407855009707s; --delay:-3.092155375600532s;"></div>
+				<div class="bubble" style="--size:2.174029570325935rem; --distance:6.624044729577989rem; --position:101.80350199331701%; --time:3.36819325422163s; --delay:-2.441138371681325s;"></div>
+				<div class="bubble" style="--size:3.9337548847917176rem; --distance:7.4609394636187rem; --position:103.71321728414424%; --time:3.0726704986747055s; --delay:-3.229376179539824s;"></div>
+				<div class="bubble" style="--size:3.9657928489406578rem; --distance:6.338790396675553rem; --position:36.346512268314015%; --time:3.222558477819987s; --delay:-3.024569153204101s;"></div>
+				<div class="bubble" style="--size:5.120008395925852rem; --distance:9.481998254210737rem; --position:28.463583749357106%; --time:2.7704820499297957s; --delay:-2.3363575976765514s;"></div>
+				<div class="bubble" style="--size:2.350822627319973rem; --distance:6.963113786402176rem; --position:96.98749486326015%; --time:3.0479417656151693s; --delay:-2.0908988424129187s;"></div>
+				<div class="bubble" style="--size:4.570876674792969rem; --distance:7.790348466012192rem; --position:102.07933906022382%; --time:2.662499159030598s; --delay:-3.455900214283462s;"></div>
+				<div class="bubble" style="--size:3.416493274632148rem; --distance:9.881300972035636rem; --position:78.07512912642893%; --time:2.537893650966746s; --delay:-3.262556824906378s;"></div>
+				<div class="bubble" style="--size:5.118424003645159rem; --distance:9.208028158866522rem; --position:21.79702670585511%; --time:3.489079070827389s; --delay:-2.6787867156279086s;"></div>
+				<div class="bubble" style="--size:4.4228183989716845rem; --distance:7.526050411686093rem; --position:45.441042396765354%; --time:3.908815593098779s; --delay:-3.3091359498441504s;"></div>
+				<div class="bubble" style="--size:2.9433185748832953rem; --distance:7.96196360582015rem; --position:19.90993519489763%; --time:3.8412963596914316s; --delay:-2.8259126505602663s;"></div>
+				<div class="bubble" style="--size:2.05849528619894rem; --distance:6.1459614697285385rem; --position:8.202047196493575%; --time:2.9096568557481226s; --delay:-2.2307511487719784s;"></div>
+				<div class="bubble" style="--size:5.62621140844612rem; --distance:9.877245928613291rem; --position:51.163040751918274%; --time:3.4100355644916616s; --delay:-3.3273812822857676s;"></div>
+				<div class="bubble" style="--size:2.6828180368242487rem; --distance:6.888010849255835rem; --position:96.19777881478544%; --time:2.768954203680983s; --delay:-3.7333250829942815s;"></div>
+				<div class="bubble" style="--size:5.374249652518442rem; --distance:8.936641070757226rem; --position:55.15891030510387%; --time:3.907270613887064s; --delay:-2.7256551131235387s;"></div>
+				<div class="bubble" style="--size:3.184633677959268rem; --distance:6.8921399976503706rem; --position:10.86733782465002%; --time:3.889211675647253s; --delay:-2.5374482761721526s;"></div>
+				<div class="bubble" style="--size:5.633441145653617rem; --distance:7.160109472448184rem; --position:26.85694455395257%; --time:3.0937613361627014s; --delay:-3.5966799354790724s;"></div>
+				<div class="bubble" style="--size:3.732064334168891rem; --distance:9.278983807894573rem; --position:47.085431238497044%; --time:2.063208491520303s; --delay:-3.384755551928405s;"></div>
+				<div class="bubble" style="--size:5.240215999012053rem; --distance:6.5134622431121105rem; --position:-0.40956515370315305%; --time:3.059796495206812s; --delay:-2.4988579031318254s;"></div>
+				<div class="bubble" style="--size:3.245569213837424rem; --distance:9.608204645112878rem; --position:33.757384370615185%; --time:3.365448014903401s; --delay:-3.740536013837893s;"></div>
+				<div class="bubble" style="--size:5.241433023456728rem; --distance:6.873801302791137rem; --position:85.53225256511342%; --time:2.3264302728535013s; --delay:-3.682181399463987s;"></div>
+				<div class="bubble" style="--size:4.840027472664194rem; --distance:9.03481894854448rem; --position:100.66667746202057%; --time:3.177665383953678s; --delay:-3.2784232506113864s;"></div>
+				<div class="bubble" style="--size:2.5977492693309117rem; --distance:8.948019134453805rem; --position:58.85919764159153%; --time:2.405061270966689s; --delay:-3.149884511163974s;"></div>
+				<div class="bubble" style="--size:5.380672202757323rem; --distance:7.649868553306627rem; --position:-3.973700142235066%; --time:2.1026469234774945s; --delay:-2.2704930732705906s;"></div>
+				<div class="bubble" style="--size:5.980636510056822rem; --distance:8.023095304431573rem; --position:0.8062683444563845%; --time:2.550066898176534s; --delay:-2.035471036454141s;"></div>
+				<div class="bubble" style="--size:5.490807826714537rem; --distance:7.631777144126801rem; --position:22.524691360842418%; --time:3.1129845735556483s; --delay:-2.4847297523630565s;"></div>
+				<div class="bubble" style="--size:3.713207658094266rem; --distance:9.274398569259363rem; --position:-2.196898435115815%; --time:3.099060143954791s; --delay:-2.1011415783813443s;"></div>
+				<div class="bubble" style="--size:4.890774356885455rem; --distance:7.505433957391517rem; --position:40.07564143782718%; --time:2.244057200396023s; --delay:-3.7721823649940167s;"></div>
+				<div class="bubble" style="--size:3.8625743591660138rem; --distance:8.110265290222086rem; --position:-2.7381727575100334%; --time:3.546326900607146s; --delay:-3.9568994593220466s;"></div>
+				<div class="bubble" style="--size:4.672924318383894rem; --distance:8.06902352907009rem; --position:21.691399511706734%; --time:3.832406357835539s; --delay:-3.0235792022095374s;"></div>
+				<div class="bubble" style="--size:2.905671746458105rem; --distance:7.817743686315875rem; --position:34.14899346516011%; --time:3.666966671206267s; --delay:-3.630070297880713s;"></div>
+				<div class="bubble" style="--size:3.570417108892606rem; --distance:9.076267929328269rem; --position:20.49410899756507%; --time:3.2123678667553404s; --delay:-3.5423210608447158s;"></div>
+				<div class="bubble" style="--size:3.0345039897467574rem; --distance:8.337245499327633rem; --position:94.10653007793363%; --time:3.6978906787879096s; --delay:-2.777799930886548s;"></div>
+				<div class="bubble" style="--size:4.302602368457962rem; --distance:7.29023868264704rem; --position:47.236361410959105%; --time:3.462203875341722s; --delay:-3.845744653580304s;"></div>
+				<div class="bubble" style="--size:3.117947133057749rem; --distance:9.853856737557555rem; --position:49.6224866637438%; --time:3.865138149842539s; --delay:-3.0224006357512336s;"></div>
+				<div class="bubble" style="--size:2.226442996622672rem; --distance:8.103608626885393rem; --position:10.606288211938253%; --time:3.2144892751394463s; --delay:-3.6780427488841707s;"></div>
+				<div class="bubble" style="--size:4.211310744694964rem; --distance:9.761415801877874rem; --position:31.069768680221564%; --time:2.3759852828612735s; --delay:-3.1309466241621844s;"></div>
+				<div class="bubble" style="--size:4.286426161809144rem; --distance:9.197353270308538rem; --position:9.936210319271275%; --time:2.994451181182931s; --delay:-3.272560834346208s;"></div>
+				<div class="bubble" style="--size:3.0910847643195627rem; --distance:7.951268486380014rem; --position:82.06991370538398%; --time:2.13774887461711s; --delay:-2.1059159846540823s;"></div>
+				<div class="bubble" style="--size:5.420091045654245rem; --distance:8.591809486128035rem; --position:35.30948340346011%; --time:3.5958908092353394s; --delay:-3.8420282549280125s;"></div>
+				<div class="bubble" style="--size:3.582664137327807rem; --distance:9.07222761600081rem; --position:66.09462165712189%; --time:3.7595251806330516s; --delay:-2.297843071004192s;"></div>
+				<div class="bubble" style="--size:5.0199236988676805rem; --distance:8.767641986444431rem; --position:77.50697241919566%; --time:3.6759668957784206s; --delay:-3.192954195839779s;"></div>
+				<div class="bubble" style="--size:2.154740944183171rem; --distance:9.447547104101762rem; --position:13.485203893077095%; --time:2.3787984325234275s; --delay:-3.66359730021802s;"></div>
+				<div class="bubble" style="--size:2.0857505238394545rem; --distance:9.747530099672499rem; --position:51.30701963764068%; --time:2.918740772890499s; --delay:-2.3305017620965036s;"></div>
+				<div class="bubble" style="--size:3.5396271894988462rem; --distance:8.525628524653268rem; --position:-2.2248679627285006%; --time:2.369471200378891s; --delay:-2.14497762517292s;"></div>
+				<div class="bubble" style="--size:4.23374114035661rem; --distance:7.532855030856608rem; --position:62.680573313050346%; --time:3.9428265161928517s; --delay:-2.0326076457281275s;"></div>
+				<div class="bubble" style="--size:5.189536662101742rem; --distance:8.204742560336118rem; --position:64.4334228682633%; --time:2.999656993406454s; --delay:-3.8258636517798568s;"></div>
+				<div class="bubble" style="--size:4.928663337940393rem; --distance:7.775679177592258rem; --position:12.11734436583611%; --time:2.924166470976003s; --delay:-3.149676981111281s;"></div>
+				<div class="bubble" style="--size:4.014242838214261rem; --distance:8.121701516270935rem; --position:18.24654473675594%; --time:3.379391909924744s; --delay:-3.1345939856695275s;"></div>
+			</div>
+				<div class="content">
+					<div>
+						<div><b>關於我們</b><a href="https://www.instagram.com/lll_ya._.9/">小安</a><a href="https://www.instagram.com/yancheng_q/">直布羅陀</a><a href="https://www.instagram.com/djeoeowv/">小gay狗</a><a href="https://www.instagram.com/yushang_tsai/">菜花</a></div>
+						<div><b>聯絡我們</b><a >0800-080-123</a></div>
+						<div><b>Donate</b><a href="https://www.buymeacoffee.com/s911019q">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;點擊這裡來贊助我們</a></div>
+						<div><b>我們社團</b><a href="#"><img src="facebook.ico" type="image/x-icon"></a>
+											<a href="https://www.youtube.com/watch?v=etkIqnnUJZQ"><img src="youtube.ico"  type="image/x-icon" width="32px" height="32px"></a>
+											<a href="#"><img src="instagram.ico" type="image/x-icon"></a>
+											<a href="#"><img src="discord.ico" type="image/x-icon"></a></div>
+					</div>
+					<div><a class="image" href="http://bit.ly/get3a" target="_blank" style="background-image: url(&quot;sus.svg&quot;)"></a>
+						<p>©2022 Not Really </p>
+					</div>
+				</div>
+		</div>
+		<svg style="position:fixed; top:100vh">
+			<defs>
+				<filter id="blob">
+				<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+				<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob"></feColorMatrix>
+				</filter>
+			</defs>
+		</svg>
+		
+	</body>
+</html>
